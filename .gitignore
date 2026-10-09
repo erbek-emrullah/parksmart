@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Veri setleri (büyük dosyalar)
+ml/data/
+*.zip
+*.tar.gz
+
+# Model dosyaları
+*.pt
+*.h5
+*.onnx
+*.tflite
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Android
+mobile/.gradle/
+mobile/build/
+mobile/app/build/
+*.apk
+local.properties
+
+# Logs
+*.log
+
+# Temp & Yerel Notlar
+extracted_text.txt
+AGENTS.md
+docs/prompts/
